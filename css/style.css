@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+html {
+    height: 100%;
+    background-color: cyan;
+}
+
+body {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    border: 2px solid;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.item-1 {
+    grid-column: 1 /3;
+    grid-row: 1 / 3;
+    text-align: center;
+    text-align: center;
+    background-color: yellow;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-2 {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    text-align: center;
+    background-color: orange;
+    text-align: center;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-3 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+    text-align: center;
+    text-align: center;
+    background-color: red;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-4 {
+    grid-column: 6 / 8;
+    grid-row: 1 / 3;
+    text-align: center;
+    text-align: center;
+    background-color: palevioletred;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-5 {
+    grid-column: 8 / 10;
+    grid-row: 1 / 2;
+    text-align: center;
+    background-color: blueviolet;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-6 {
+    grid-column: 10 / 11;
+    grid-row: 1 / 2;
+    text-align: center;
+    background-color: blue;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-7 {
+    grid-column: 1 /3;
+    grid-row: 3 / 4;
+    text-align: center;
+    background-color: bisque;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-8 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    text-align: center;
+    background-color: chartreuse;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-9 {
+    grid-column: 4 / 6;
+    grid-row: 2 / 4;
+    text-align: center;
+    background-color: cyan;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-10 {
+    grid-column: 6 / 8;
+    grid-row: 3 / 4;
+    text-align: center;
+    background-color: darkgoldenrod;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-11 {
+    grid-column: 8 / 9;
+    grid-row: 2 / 4;
+    text-align: center;
+    background-color: chocolate;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-12 {
+    grid-column: 9 / 11;
+    grid-row: 2 / 4;
+    text-align: center;
+    background-color: darkgreen;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-13 {
+    grid-column: 1 /2;
+    grid-row: 4 / 5;
+    text-align: center;
+    background-color: khaki;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-14 {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    text-align: center;
+    background-color: slategray;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-15 {
+    grid-column: 4 / 6;
+    grid-row: 4 / 6;
+    text-align: center;
+    background-color: darkorange;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-16 {
+    grid-column: 6 / 7;
+    grid-row: 4 / 5;
+    text-align: center;
+    background-color: paleturquoise;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-17 {
+    grid-column: 7 / 9;
+    grid-row: 4/ 5;
+    text-align: center;
+    background-color: maroon;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-18 {
+    grid-column: 9 / 11;
+    grid-row: 4 /6;
+    text-align: center;
+    border-color: darkslategrey;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-19 {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+    text-align: center;
+    background-color: lightsalmon;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-20 {
+    grid-column: 3 / 4;
+    grid-row: 5 / 7;
+    text-align: center;
+    background-color: gold;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-21 {
+    grid-column: 4/ 6;
+    grid-row: 6 / 7;
+    text-align: center;
+    background-color: springgreen;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-22 {
+    grid-column: 6 / 8;
+    grid-row: 5 / 7;
+    text-align: center;
+    background-color: seagreen;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-23 {
+    grid-column: 8 / 9;
+    grid-row: 5 / 7;
+    text-align: center;
+    background-color: powderblue;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+.item-24 {
+    grid-column: 9 / 11;
+    grid-row: 6 / 7;
+    text-align: center;
+    background-color: darkgray;
+    &:hover {
+        background-color: blue;
+    }
+}
